@@ -75,7 +75,7 @@ $(document).ready(function (){
                                 $(".imagenlogo").addClass("blinkxd");
                                 qbMultiCharacters.fadeInDown('.topbar', '-95%', 2000);
                                 qbMultiCharacters.fadeInDown('.bottombar', '94.5%', 2000);
-                                qbMultiCharacters.fadeInDown('.imagenlogo', '35%', 2500);
+                                qbMultiCharacters.fadeInDown('.imagenlogo', '30%', 2500);
                                 qbMultiCharacters.fadeInDown2('.btn-iniciar', '7%', 1000);
 
                                 $(".fondo-negro").fadeOut(1000);
@@ -92,7 +92,7 @@ $(document).ready(function (){
                         });
                     }, 2000);
                 }, 2000);
-                background.volume = 0.3;
+                background.volume = 0.04;
                 background.currentTime = 0
                 background.play();
             } else {
@@ -127,7 +127,7 @@ $('.disconnect-btn').click(function(e){
 });
 
 $(".btn-iniciar").on("click", function() {
-    background.volume = 0.3;
+    background.volume = 0.04;
         $(".title-screen").fadeOut(300, function() {
             qbMultiCharacters.fadeInDown('.character-info', '20%', 400);
             qbMultiCharacters.fadeInDown('.characters-list', '20%', 400);
